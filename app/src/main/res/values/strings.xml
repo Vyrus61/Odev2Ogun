@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login1</string>
+    <string name="create_new_account">Yeni Hesap Olustur</string>
+    <string name="I_have_account">Hesabim Var</string>
+    <string name="username">Kullanici Adi</string>
+    <string name="email">email</string>
+    <string name="Parola">Password</string>
+    <string name="create_account">Hesap OLustur</string>
+</resources>

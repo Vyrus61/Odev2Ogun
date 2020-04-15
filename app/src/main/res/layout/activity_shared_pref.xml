@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".SharedPrefActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginLeft="50dp"
+        android:text="Shared Preferences "
+        android:textSize="24dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textview"
+        android:hint="Ad"
+        android:padding="10dp"
+        android:id="@+id/edit1"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_below="@+id/edit1"
+        android:hint="Cinsiyet"
+        android:padding="10dp"
+        android:id="@+id/edit2"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_below="@+id/edit2"
+        android:hint="Boy"
+        android:padding="10dp"
+        android:id="@+id/edit3"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_below="@+id/edit3"
+        android:hint="Kilo"
+        android:padding="10dp"
+        android:id="@+id/edit4"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_below="@+id/edit4"
+        android:hint="Yaş"
+        android:padding="10dp"
+        android:id="@+id/edit5"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_below="@+id/edit5"
+        android:hint="Uygulama Modu(Dark/Light)"
+        android:padding="10dp"
+        android:id="@+id/edit6"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
